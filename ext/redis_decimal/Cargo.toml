@@ -1,0 +1,12 @@
+[package]
+name = "redis_decimal"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+redis-module = "2.0.0"
+bigdecimal = "0.4"
+num-traits = "0.2"
